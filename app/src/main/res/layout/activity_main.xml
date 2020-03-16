@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/onCreateView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onCreateMessage1"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/onStartView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onStartMessage1"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onCreateView1" />
+
+    <TextView
+        android:id="@+id/onResumeView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onResumeMessage1"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onStartView1" />
+
+    <TextView
+        android:id="@+id/onPauseView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onPauseMessage1"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onResumeView1" />
+
+    <TextView
+        android:id="@+id/onStopView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onStopMessage1"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onPauseView1" />
+
+    <TextView
+        android:id="@+id/onRestartView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onRestartMessage1"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onStopView1" />
+
+    <TextView
+        android:id="@+id/onDestroyView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onDestroyMessage1"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onRestartView1" />
+
+    <TextView
+        android:id="@+id/onCreateView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onCreateMessage2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/onStartView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onStartMessage2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onCreateView2" />
+
+    <TextView
+        android:id="@+id/onResumeView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onResumeMessage2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onStartView2" />
+
+    <TextView
+        android:id="@+id/onPauseView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onPauseMessage2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onResumeView2" />
+
+    <TextView
+        android:id="@+id/onStopView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onStopMessage2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onPauseView2" />
+
+    <TextView
+        android:id="@+id/onRestartView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onRestartMessage2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onStopView2" />
+
+    <TextView
+        android:id="@+id/onDestroyView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/onDestroyMessage2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onRestartView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

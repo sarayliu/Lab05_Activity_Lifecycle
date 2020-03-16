@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab 05 - Activity Lifecycle</string>
+    <string name="onCreateMessage1">onCreate() count = 0 since run</string>
+    <string name="onStartMessage1">onStart() count = 0 since run</string>
+    <string name="onResumeMessage1">onResume() count = 0 since run</string>
+    <string name="onPauseMessage1">onPause() count = 0 since run</string>
+    <string name="onStopMessage1">onStop() count = 0 since run</string>
+    <string name="onRestartMessage1">onRestart() count = 0 since run</string>
+    <string name="onDestroyMessage1">onDestroy() count = 0 since run</string>
+    <string name="onCreateMessage2">onCreate() count since installation</string>
+    <string name="onStartMessage2">onStart() count since installation</string>
+    <string name="onResumeMessage2">onResume() count since installation</string>
+    <string name="onPauseMessage2">onPause() count since installation</string>
+    <string name="onStopMessage2">onStop() count since installation</string>
+    <string name="onRestartMessage2">onRestart() count since installation</string>
+    <string name="onDestroyMessage2">onDestroy() count since installation</string>
+</resources>
